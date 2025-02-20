@@ -25,7 +25,7 @@ Both datasets are preprocessed to reduce sparsity while retaining meaningful pat
 The **Frank-Wolfe algorithm** is applied to matrix completion using a **nuclear-norm constraint** as a convex surrogate for rank minimization. The optimization process involves:  
 1. **Linear Minimization Oracle (LMO)**: Finding top singular vectors of the gradient.  
 2. **Step-Size Selection**:  
-   - **Diminishing step-size**: \( \alpha_k = \frac{2}{k+1} \)  
+   - **Diminishing step-size**: $$\( \alpha_k = \frac{2}{k+1} \) $$ 
    - **Exact line search**: Dynamically computed per iteration.  
 3. **Update Rule**:  
    \[
