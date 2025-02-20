@@ -28,9 +28,8 @@ The **Frank-Wolfe algorithm** is applied to matrix completion using a **nuclear-
    - **Diminishing step-size**: $$\( \alpha_k = \frac{2}{k+1} \) $$ 
    - **Exact line search**: Dynamically computed per iteration.  
 3. **Update Rule**:  
-   $$\
-   x_{k+1} = x_k + \alpha_k (s_k - x_k)
-   \ $$ 
+   $$x_{k+1} = x_k + \alpha_k (s_k - x_k)$$
+    
    where \( s_k \) is the rank-one update direction.  
 
 ## Results  
